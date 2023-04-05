@@ -5,7 +5,7 @@ import './Product.css'
  function Product() {
   return (
     <div className='product'>
-<img  src='https://m.media-amazon.com/images/I/819hAP4xoGS._AC_UL400_.jpg'/>
+<img  src='https://m.media-amazon.com/images/I/819hAP4xoGS._AC_UL400_.jpg' alt='#'/>
       <div className='product_info'>
           <p>SAMSUNG Galaxy Tab A7 Lite 8.7" 32GB WiFi</p>
       </div>

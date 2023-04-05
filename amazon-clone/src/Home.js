@@ -7,31 +7,26 @@ function Home() {
     <div className='home'>
    <div className='home_container'>
     <img className='home_img'src="" alt=""/>
+   
+
+   <div className="home_row">
+    <Product/>
+    <Product/>
    </div>
 
-   <div className='home_row'>
-    <Product/>
-    <Product/>
-    <Product/>
-    <Product/>
-    <Product/>
+   <div className="home_row">
+   <Product/>
     <Product/>
     <Product/>
    
    </div>
 
-   <div className='home_row'>
-    {/* product*/}
-    {/* product*/}
-      {/* product*/}
-   </div>
-
-   <div className='home_row'>
-    {/* product*/}
-    {/* product*/}
+   <div className="home_row">
+   <Product/>
+ 
   
    </div>
-   
+   </div>
     </div>
   )
 }
