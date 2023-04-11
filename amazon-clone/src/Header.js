@@ -1,15 +1,23 @@
 import React from 'react'
 import logo from './images/logo.png'
 import "./Header.css";
+import { Link } from 'react-router-dom';
 import { Search } from '@mui/icons-material';
 import ShoppingBagIcon from '@mui/icons-material/ShoppingBag';
+
 
 
 function Header() {
   return (
     <div className='header'>
-   
-  <img className='header_logo' src={logo} alt='#'/>
+
+
+  {/* <Link to="/home"> */}
+  <a href='/home'>
+      <img className='header_logo' src={logo} alt='#'/>
+      </a>
+    
+  {/* </Link> */}
 
 
 
